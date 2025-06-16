@@ -1,17 +1,22 @@
+<!--프로젝트 목록록-->>
 <div class="user-details">
-  <h1> Featured Projects </h1>
+  <h1> 프로젝트 </h1>
 </div>
 <div class="user-projects">
   <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
+    <img alt="mountains" src="{{ "/assets/img/image1.jpg" | prepend: site.baseurl }}" />
   </div>
   <div class="contents">
-    <h3> Project Title </h3>
+    <h3> 시각장애인 보행 보조기기 </h3>
     <ul>
-      <li> Featured Skills</li>
+      <li> RaspberryPi 5</li>
+      <li> Python</li>
+      <li> Embedded System</li>
+      <li> Yolov5</li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <p>  Raspberry Pi 5 기반 임베디드 시스템으로, 실시간 카메라 영상을 YOLOv5 모델로 분석하여 점자 블럭과 횡단보도를 인식합니다.  
+  인식된 정보는 TTS 엔진을 통해 음성으로 안내되어, 시각장애인이 스피커를 통해 실시간 피드백을 받고  
+  보다 안전하게 길을 건널 수 있도록 도와주는 보행 보조기기입니다.
   </div>
 </div>
 <div class="user-projects">
@@ -19,11 +24,55 @@
     <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-    <h3> Project Title </h3>
+    <h3> 학사관리 시스템 </h3>
     <ul>
-      <li> Featured Skills</li>
+      <li> Python</li>
+      <li> MySQL</li>
+      <li> PyQT</li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <p>Python 기반 GUI 애플리케이션으로, PyQt를 활용해 직관적인 사용자 인터페이스를 구현하고  
+MySQL 데이터베이스와 연동하여 학생 정보, 과목 목록, 신청 결과 등을 효율적으로 관리합니다.  
+사용자는 수강 과목을 선택하고 신청할 수 있으며, 관리자는 신청 결과를 조회하고 조정할 수 있는  
+기능을 제공하는 수강신청 시스템입니다.</p>
+  </div>
+</div>
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> AI 기반 리바이벌 서비스 </h3>
+    <ul>
+      <li> Python</li>
+      <li> Google Colab</li>
+      <li> SoftVC + VITS</li>
+      <li> Gradio</li>
+      <li> UVR (Ultimate Vocal Remover)</li>
+      <li> Librosa / ffmpeg</li>
+    </ul>
+    <p>  사용자의 음성을 입력하면, 보컬 제거 모델(UVR)로 기존 노래에서 반주를 추출하고, SoftVC 및 VITS 모델을 통해 사용자의 음성을 원곡 가수의 음색으로 변환하여 노래를 커버할 수 있도록 구현한 프로그램입니다.  
+  Gradio를 활용해 웹 기반 인터페이스를 제공하며, 누구나 간편하게 자신만의 커버곡을 생성해볼 수 있도록 제작되었습니다.</p>
+  </div>
+</div>
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> AI 기반 얼굴/모션 인식 드론 </h3>
+    <ul>
+      <li> Python</li>
+      <li> OpenCV</li>
+      <li> djitellopy (Tello SDK)</li>
+      <li> MediaPipe</li>
+      <li> Threading</li>
+      <li> NumPy</li>
+      <li> configargparse</li>
+      <li> Haar-cascade 얼굴 검출</li>
+    </ul>
+    <p>  제스처와 얼굴을 인식하여 실시간으로 드론을 제어할 수 있는 프로그램입니다.  
+  MediaPipe 기반의 손 제스처 인식 및 Haar-Cascade 얼굴 인식을 활용해 사용자의 모션을 감지하고,  
+  인식된 정보를 Tello 드론에 전달하여 비행 방향이나 동작을 제어합니다.  
+  다양한 제스처 명령을 인식하며, 키보드 수동 조작 모드와 얼굴 추적 모드도 함께 제공되어 유연한 조작이 가능한 드론입니다.</p>
   </div>
 </div>
