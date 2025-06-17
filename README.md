@@ -1,71 +1,67 @@
-# Particle Jekyll Theme
+# 👋 hoo1suu 포트폴리오
 
-![](./particle.jpg)
+이 저장소는 대림대학교 AI 시스템학과 재학 중인 개발자의 GitHub 포트폴리오 웹사이트입니다.  
+GitHub Pages를 기반으로 제작되었으며, 보유 기술, 프로젝트 경험, 활동 및 수상 경력을 한눈에 볼 수 있도록 구성되었습니다.
 
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
+🌐 실제 사이트 보기: [hoo1suu.github.io](https://hoo1suu.github.io)
 
-The Theme features:
+---
 
-- Gulp
-- SASS
-- Sweet Scroll
-- Particle.js
-- BrowserSync
-- Font Awesome and Devicon icons
-- Google Analytics
-- Info Customization
+## 🔧 My Expertise
 
-## Basic Setup
+- 🎓 **학력**: 대림대학교 AI 시스템학과 재학 중
+- 💻 **프로그래밍 언어**: Python, C, C++, Java, MySQL
+- 🛠 **기술 및 도구**: Raspberry Pi, PyTorch, TensorFlow, OpenCV, WinAPI, Arduino, Linux, Ubuntu
+- 📜 **자격증**:  
+  ITQ OA 3종, QA MASTER, 컴퓨터응용선반기능사, 컴퓨터응용밀링기능사, 전자계산기기능사, 생산자동화기능사, 정보처리산업기사
+- 🏆 **수상**:  
+  전국 인공지능 드론 경진대회 동상 (2024), 창의융합 해커톤 대회 동상, 전문기술인재장학금 2회 수혜
+- 🧪 **경험 및 활동**:
+  - 코드클럽한국위원회: 초·중학교 대상 SW교육 기부 (2024.05~06)
+  - 안양시 청소년 드론 체험 부스 운영 (2024.05.30)
+  - BeACE 자기주도 역량개발 수료
+  - 코멘토 백엔드 실무 캠프 (2023.11)
+  - AI 융합 서비스 개발 과정 수료 (2025.01)
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Clone the particle theme: `git clone https://github.com/nrandecker/particle.git`
-3. Edit `_config.yml` to personalize your site.
+---
 
-## Site and User Settings
+## 💡 주요 프로젝트
 
-You have to fill some informations on `_config.yml` to customize your site.
+### 🔹 [시각장애인 보행 보조기기](https://github.com/hoo1suu/vision-walk-aid)
+- **기술**: Raspberry Pi 5, Python, YOLOv5, Hailo-8
+- **설명**:  
+  카메라 기반 객체 인식으로 점자 블럭과 횡단보도를 탐지하여 실시간 음성 안내를 제공하는 임베디드 보조기기
 
-```
-# Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site
+---
 
-# User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-```
+### 🔹 [학사관리 시스템](https://github.com/hoo1suu/haksa-management-system)
+- **기술**: Python, PyQt, MySQL
+- **설명**:  
+  수강 신청 및 관리 기능을 갖춘 GUI 기반의 학사관리 시스템
 
-**Don't forget to change your url before you deploy your site!**
+---
 
-## Color and Particle Customization
-- Color Customization
-  - Edit the sass variables
-- Particle Customization
-  - Edit the json data in particle function in app.js
-  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
+### 🔹 [AI 기반 리바이벌 서비스](https://github.com/hoo1suu/AI_cover)
+- **기술**: SoftVC + VITS, Gradio, Google Colab
+- **설명**:  
+  사용자의 음성을 특정 가수의 음색으로 바꿔 커버곡을 생성하는 음성 합성 서비스
 
-## Running the blog in local
+---
 
-In order to compile the assets and run Jekyll on local you need to follow those steps:
+### 🔹 [AI 얼굴/모션 인식 드론](https://github.com/hoo1suu/ai-face-gesture-drone)
+- **기술**: Python, OpenCV, djitellopy, MediaPipe
+- **설명**:  
+  손 제스처 및 얼굴 인식을 통해 드론을 실시간 제어하는 인터랙티브 비행 시스템
 
-- Install [NodeJS](https://nodejs.org/)
-- Install [Jekyll](https://jekyllrb.com): `sudo gem install bundler jekyll`
-- Install [Yarn](https://yarnpkg.com/): `npm install -g yarn`
-- Install dependencies: `yarn`
-- Run: `gulp`
+---
 
-## License
+## 📌 사용 기술 정리
 
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
+- **AI**: YOLOv5/v8 기반 객체 탐지, PyTorch/TensorFlow 모델 학습, OpenCV 기반 영상 처리
+- **임베디드**: Arduino, Raspberry Pi, 리눅스 기반 실시간 제어 시스템 설계
+- **백엔드**: Python 기반 알고리즘 처리, MySQL 데이터 관리
+- **기타**: Gradio, TTS, Haar-cascade, threading, Hailo AI 추론 등
 
-## Credits
+---
 
-This theme was partially designed with the inspiration from these fine folks
-- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
-- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
+포트폴리오는 지속 업데이트되고 있으며, 각 프로젝트의 코드와 설명은 개별 저장소에서 확인하실 수 있습니다.
